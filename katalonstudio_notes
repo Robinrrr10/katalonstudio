@@ -23,7 +23,81 @@ Go to offical website of katalon studio
 Signup and download katalon studio
 Install katalon studio
 
-Tutorial 3:
+Tutorial 3: GUI options and its uses
 ----------
+Help -> Guick guide     //This will show the use of each option in UI
+
+Main tool:
+new //This is to add new test or new project or new object repor etc
+Spy web or Spy mobile //This is capture object by doing some action in application
+Record //This is used to record the test by doing manually and recording
+Run //Used to run the test
+Debug  //Used to debug the test
+Stop  //Used to stop the test
+Build CMD //Used to create command line tool. So that we dont want to open the UI to run. we can run using command
+Git //Used to integrated Git repo
+
+Test Explorer:  //This option is available above the test cases
+Here it will test cases, object repo, test suite, data files etc
+we can filder with name and component
+
+Keyword browser:
+This will show all available keywords
+
+Editor:
+For test, it will show manual, code, variable and integration.  //manual is to manually add a step in test, code is code the action or step, variable will show all global variable
+For object repository, it will give the option to add object or identifier
+For test suite, it will the option to add test case in test suite. We can enable or disable any test here
+For data files, it will give the option to add test data via excel, csv, text or db etc
+For keyword, this will give option to edit the keyword behaviour
+
+
+views:
+This will give option to view global variables, console output, test cases status pass/fail etc
+
+
+When clicking any keyword, it will show keyword or debug in top right. Debug is used to debug for the test
+
+Preferences:
+For windows: Windows -> preferences
+For mac: Click on katalon studio in top left corner -> preferences
+This is used to change any default settings of katalon studio
+
+To move to default:
+Windows -> default settings
+
+
+Clicking ? (question mark) will take to documentation page in browser
+
+Ctrl + Alt + C //This will give quick link to component
+
+
+Help -> Report.  //This is to report any issue and log ticket to katalon if something not working in katalon studio
+
+To skip the step in test we can right click on the step and then click on disable
+To skip the test in suite, we can disable checkbox in run 
+
+
+Tutorial 4: First Test
+-------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
