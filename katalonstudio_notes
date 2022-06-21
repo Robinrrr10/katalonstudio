@@ -80,6 +80,15 @@ To skip the test in suite, we can disable checkbox in run
 
 Tutorial 4: First Test
 -------------
+3 way we can write the test
+
+1. Record and play //We can click record option and give url and open browser and record all the action and then we replay the same
+2. Manual mode //Here we will manually add keyword of each action and do
+3. Scripting //Here we can use java or groovy code to create test scripts
+
+
+Tutorial 5: Record and reply
+-----------
 
 
 
