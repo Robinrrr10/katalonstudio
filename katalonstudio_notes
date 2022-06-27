@@ -105,6 +105,36 @@ Katalon studio will capture all the action
 
 Tutorial 6: Create test using manual mode
 ----------
+Using spy web we can able to capture the object
+Click spy web, give url and browser and select the object in browser which we need to capture.
+Then click the short cut or capture object to capture the object
+This will capture the locator
+Now we can save the object in folder which we wanted to save in object repo
+
+
+Now click new button and click test case,
+Select the folder where we wanted to add the test
+Give the test name and give ok
+Click on add button to add item keyword
+We can give object and value if needed
+To verify we can add verification item like verify text present
+Once done, save it
+Then click on run button to run on chrome
+To run in other browser, click arrow button in run button and then select the browser.
+It will run the test on given browser.
+
+We can handle whether we have to stop or continue if any failure in between.
+Go to -> project -> settings -> Test case -> Select any (stop on failure / continue on failure / optional) //stop means it will stop if some step got failed, continue mean it will continue even if it fails. but the result will be failed, optional means it wont show as failure even if some test fails if it can move till the end of test )
+
+To handle the same in step level:
+Select the step, right click on the step -> select any (stop on failure / continue on failure / optional) //stop means it will stop if some step got failed, continue mean it will continue even if it fails. but the result will be failed, optional means it wont show as failure even if some test fails if it can move till the end of the test )
+
+//We can drag and drop any keyword or object to the test.
+
+
+
+
+
 
 
 
