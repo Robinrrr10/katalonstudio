@@ -89,6 +89,22 @@ Tutorial 4: First Test
 
 Tutorial 5: Record and reply
 -----------
+To record:
+1. Click record button
+2. Give url and select browser
+3. Click record button
+It will launch the browser
+4. Do the action which we wanted to record in the link
+Katalon studio will capture all the action
+5. Then click stop button
+
+6. Option- If we wanted to add validation, we can give that in item
+(It will save the objects which has been captured during recording. Give the path where we wanted to save)
+7. To reply or to run, We can click run button and select the browser where we wanted to run
+
+
+Tutorial 6: Create test using manual mode
+----------
 
 
 
