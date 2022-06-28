@@ -186,6 +186,32 @@ View last run report
 
 
 
+Tutorial 9: Test suite collection - Parallel run
+----------------------------------
+Test suite collection will have set of test suites
+
+To create test suite collection
+Add -> Test suite collection -> Give name of test suite collection
+Then add test suite in test suite collection.
+Then we can give different browser for each test suite.
+We can enable or disable the check on run
+
+In test suite collection -> Execution information
+We can select parallel to run parallel
+We can select sequence to run sequence
+
+
+To run:
+We can select test suite collection and click run
+It will run all test suite in the the collection in given different browsers
+
+Report:
+In report we can see the report for test suite collection
+It will show all required details of pass, fail etc
+
+
+
+
 
 
 Other notes:
