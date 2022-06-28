@@ -211,6 +211,75 @@ It will show all required details of pass, fail etc
 
 
 
+Tutorial 10: Report
+-------------------
+Report will be generated after 
+Running the test case
+Running the test suite
+Running the test suite collection
+
+In Logviewer, we will get all details of pass, fail, warning, error etc
+We can filter with same if needed
+
+We can double click the step to show the details of failure
+
+In top right, it will show tree view. This will show the logs in tree
+It will show the line number of test case, we can click and move that line
+
+In top right, it will show scroll lock.
+This will show recent log on bottom and old log on top
+We can click scroll lock to freeze the log
+
+
+Test suite report
+Report -> Test suite -> time
+It will show the test suite report
+We can click on show test case details to show test cases report
+
+We can click on any test, it will show the report
+We can click any step, it will give more detail
+If any screenshot is there, it will show the screenshot as well. It will show as attachment button
+Information will give details of test execution information of the test
+Integration will give details of cicd or any integration details
+
+In test suite -> time
+We can right click and click open containing folder
+This will open the report folder
+Here we can find the report in csv
+Here we can find property and log file
+Here we can see the report.html will have all details of the complete report
+It will show all details, and screeshot if we there
+
+
+Test suite collection report
+It will show available test suite, environment where it runs, it will show number of test cases pass in each suite
+Show details will show suite level report
+Right click on report of test suite collection -> open container folder, this will also show all report details in folder
+
+
+If need we can rename the testreport.
+Right click on the timestamp and rename
+We can see the captured screenshot in step folder. it shows attach button
+
+
+If we wanted to generate the report automatically after running, then
+Project -> settings -> execution 
+Here we can check to open the report automatically after execution
+
+
+All test report will be saved
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
