@@ -132,6 +132,28 @@ Select the step, right click on the step -> select any (stop on failure / contin
 //We can drag and drop any keyword or object to the test.
 
 
+Tutorial 7: Creating script in script mode
+-------------------------
+we can use java or groovy to write the script
+
+We can capture the object using spy mode and save the required object in object repository
+To create test, click on add button and give test case name and give ok
+Then we can see the test case, we can click on script option, so that it will switch to script mode
+We can see the default package/class which has been already imported.
+
+Now we can give WebUI.methoname() or mobile.methodname()
+It will show the suggession of available methods.
+
+While writing, we can drag and drop the object, so that it will added in script
+To no run any step, we can give like not_run before the line
+not_run: WebUI.methodname()
+
+Whatever we write in script mode, it will show the same step in manual mode
+Whatever we write in manual mode, it will show the same step in script mode
+So it is easy to find script and manual steps
+
+
+
 
 
 
