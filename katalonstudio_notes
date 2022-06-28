@@ -153,6 +153,48 @@ Whatever we write in manual mode, it will show the same step in script mode
 So it is easy to find script and manual steps
 
 
+Tutorial 8: How to create and run Test Suite
+---------------
+Test suite is used to categorize or group the set of test cases
+
+To create Test suite
+Add -> Test suite -> Give test suite name
+
+To add test cases in test suite
+Select the test suite -> add -> select test cases which we wanted to add in selected test suite
+
+To run test suite
+Select the test suite -> Click run button (Select browser or device)
+
+To view log:
+We can view the result in Log viewer
+
+To view report:
+Report->Select the test suite. It will show the result of each test
+Select the test cases. It will show the result of each step
+Select step. It will show the log of each step
+We can see the summary of report by clicking summary
+We have filter to filter pass / fail / error etc
+We can able to see logs of each test cases and each steps in test case
+
+In Test suite -> Execution information, we can handle below
+Timeout
+Retry
+Add mail recipients
+View last run report
+//Select Test suite -> Execution information, we can give timeout or retry or add mail recipients or view last run report
+
+
+
+
+
+Other notes:
+-----------
+------------
+//If need we can create folder in test case and we can add the test cases into the folder.
+Default timeout is available in Project -> settings -> execution ->
+
+
 
 
 
