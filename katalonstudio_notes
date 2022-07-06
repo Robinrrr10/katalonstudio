@@ -306,6 +306,49 @@ Click on execution informaion, there we can find add button mail recipients, The
 Now the Email notification will be send once the test suite is completed.
 
 
+Tutorial 12: How to run from command line:
+---------------------------
+We will generate the command using katalon studio GUI. And we will use that command.
+We can run using command instead of opening katalon GUI.
+command can be used for running from cicd
+Running using command would be faster when compared to running from GUI.
+Running using command will consumes less resource as it wont run on GUI.
+
+
+Pre-request:
+Java should be installed on the system. Then only command line            //java -version   //We can use this command to check whether java is installed or not
+Only if we have the java installed, then only we can able to generate the command and run the command
+
+
+To generate command:
+Open katalon studio.
+In tool bar, click Build CMD icon.     //This is a command builder.
+It will open dialog box.
+Select the test suite/test suite collection    //We can generate command for test suite or test suite collection. NOT for test case
+Select the browser where we wanted to run
+Select output location for report. Else we can keep by default
+Add the email recipients
+Check display console log
+Then give retry count if needed
+Now click Generate command button.   //This will give the command 
+Now it will give the command
+Copy the command somewhere.  we will be using this command to run the test using command
+
+
+//If we need we can generate the property file by clicking Generate Property file in same dialog box.
+Then we can save the property file.  //Property file will have properties like browser, path, file name, report folder, retry count, send mail, test suite details etc.
+Whatever we are giving while generating the command, it will have the same details. //Now we can change any property if needed
+While running we can give like  Eg(for windows): katalon -propertiesFile="/root/user/tmp/myproper.properties" -runMode=console    or (For mac)  Katalon Studio.app/Contents/MacOS/katalon -propertiesFile="/root/user/tmp/myproper.properties" -runMode=console
+
+
+To run:
+Now open terminal.
+Go to location where katalon studio is installed.  //In mac it will be inside /Application/ folder  Eg: cd /Application
+Now run the command in terminal.
+Now the test will be executed.
+
+
+
 
 
 
