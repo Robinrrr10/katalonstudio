@@ -272,11 +272,38 @@ All test report will be saved
 
 
 
+Tutorial 11: How to Email result:
+--------------------
+
+Project -> Settings -> Email
+
+Give host as smtp.gmail.com
+port as 465
+username as sender email Eg: robin.rymonse@qapitol.com
+password of sender email Eg: 123456
+Protocol as TLS
+
+Click add button to add recipient/reciever email address. Who ever wanted to recive the emai report, add here
 
 
+Click on send test email to check whether email report is working or not
+
+If we face any issue while sending test email, go to sender google account.
+Click signing to google under Signin & Security,
+At the end of page, we can find Allow less secure apps.
+Enable this and try sending test mail again.
+
+Once done give apply and Ok.
+
+//If we wanted to send csv and html report along with email result then check send attachment. If not need, then we dont wanted to check
 
 
+Email notification will be send once the test suite is completed.
 
+Click the test suite for which we need to send the email result.
+Click on execution informaion, there we can find add button mail recipients, There we can add receiver email ids.
+
+Now the Email notification will be send once the test suite is completed.
 
 
 
