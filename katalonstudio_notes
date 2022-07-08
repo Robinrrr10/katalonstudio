@@ -472,6 +472,52 @@ This variable we can use in any where in the project
 
 
 
+Tutorial 31: Getting test data from excel / csv file
+-----------------------------
+
+For adding csv/excel file as test data:
+Create a csv/excel file and add the keys and its values
+Right click on  Data Files -> New -> Test data or to to Files -> New -> Test data
+Now give the test data name
+Give data type. where it should take from excel or csv file or database data or internal data  //Internal data means, we can directly give in test data
+Now it will create.
+Now give the file path of csv/excel where the data is there. 
+Now it shows the data in the window
+Select the sheet, if there are multiple sheet in excel
+Check first row as header, if first row contains header
+Check use relative path, if needed
+
+
+For adding test data  in test case:
+In TestCase, Go to variables and add variables
+Click on the step which we wanted to add test data
+In value type select Test data value. 
+In value, select the values.
+
+To add in test using scripting,
+use findTestData("testdatafoldername/testdataname").getValue(columnNumber, rowNumber)
+Eg:
+WebUI.setText(findTestObject('Object Repository/mypage/user_name'), findTestData("data1").gatValue(1,1))
+Eg: For iterating each value in data
+for(def rowNum=1; rowNum <= findTestData("data1").getRowNumbers(); rowNum++) {
+  
+  WebUI.setText(findTestObject('Object Repository/mypage/user_name'), findTestData("data1").gatValue(1,rowNum))    //If need we can iterate in column as well
+}
+//If we add for loop statement, in manual mode, it will show For Loop Statements
+
+
+For adding test data in test suite:
+Go to test suite,
+Click show data binding.
+It should show Test data and variable binding.
+In variable binding, it should show the variables used in test cases of test suite
+In Test data, click add button
+Then select the test data
+In variables binding, in each variables click on type,
+Select data column.
+In Test data column, add created test data.
+In values, select the variables
+Same we ca do for other variables
 
 
 
