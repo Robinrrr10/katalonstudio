@@ -454,6 +454,24 @@ If both are different, it will fail
 
 
 
+Tutorial 30: Variables
+-------------------------
+We can add variables in 3 ways
+
+Way 1: Directly in script. This is not recommented
+Eg:
+String name = "Ram"
+This we can use in the test
+
+
+Way 2: Click on variables, click on Add button to add the variable and its value.
+This we can use in the test
+
+Way 3: Go to profiles, click on any profile or default. Click on add button to add the variable. This will be global variable. 
+This variable we can use in any where in the project
+
+
+
 
 
 
