@@ -537,6 +537,9 @@ We can save time as well.
 
 
 
+Good practise:
+//For each set of steps, we can create as seperate test. Values should be taken from variables.
+//Now in new main test, we can call these test cases. We can pass the test data for each of the test
 
 
 
