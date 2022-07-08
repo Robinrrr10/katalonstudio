@@ -521,6 +521,20 @@ Same we ca do for other variables
 
 
 
+Tutorial 32: Re-use test case or refer test case
+-------------------------------------------------
+
+To call other test:
+Go to our current test case,
+Go to Add -> Call Test case -> Select the test case which we want to use here.
+Now steps in added test cases will be called in our current test.
+
+
+//We can have multiple set of repeated action as each test. Add we can call in other test.
+//We can have verifing set of steps also and we can use in other test
+//So that we can avoid repeated/duplication of steps.
+We can save time as well.
+
 
 
 Other notes:
