@@ -353,6 +353,68 @@ Now the test will be executed.
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+Tutorial 28: How to create customer keyword
+-------------
+Katalon studio is giving option to creator own keyword.
+If some keyword is not available in katalon studio, we can create our own keyword
+
+
+To create keyword:         
+File -> New -> Keyword
+Give the package name and class name.    //If package is not there, then create package using file -> new package   //Class name we can give new class name
+// if wanted to generate sample keyword, check Generate sample keyword for web/mobile/API
+It will create groovy class along with few import startement
+To create function we can use def 
+To make the function as keyword we need to use @Keyword annotation above the function
+
+Eg:
+com.mytest.demo
+...more import statements..
+
+public class MyClass {
+  
+
+  @Keyword
+  def myPrintState(){
+    println("...my priting statement")
+  }
+
+  @Keyword
+  def myPrintMyName(String name){
+    println("name: " + name)
+  }
+
+}
+
+
+
+Once done, save it.
+It will be saved under Custom Keywords/General folder
+Now in test step we can use this keyword
+
+
+
+//To view build in keyword, press keyword symbol near to project view.
+It will show all build in keyword, custom keywords and utils.
+In custom keywordsm we can found our created keyword
+
+
+
+
+
+
 Other notes:
 -----------
 ------------
