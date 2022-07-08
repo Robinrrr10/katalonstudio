@@ -412,6 +412,50 @@ In custom keywordsm we can found our created keyword
 
 
 
+Tutorial 29: Checkpoint
+-----------------
+Tutorial 29: How to create checkpoints
+-------------------------------------
+Checkpoint will store the snapshot for data source (csv, db data, excel data etc).
+It will store the snapshot of data when checkpoint was taken.
+Later if need, we can check snapshot of previous and current value in data source (csv, db data, excel data etc).
+
+
+To create checkpoint:
+Right click on checkpoint -> new -> checkpoint
+or
+File -> New -> Checkpoint
+Give checkpoint name
+Then give data type. Give whether it should read data from test data or excel file or csv file or database data.
+Then click next
+Give path of the data file
+if need we can give seperator. whether it is comma or tab or semi colon. By default it will take from reading
+If it has multiple sheet, it shows sheet name also.
+Check whether it should use header row or not
+Check whether the file is in absolute or relative path
+Then click ok button.
+Now it will show the contend of checkout.
+We can check if we wanted to use those data as checkpoint
+
+To verify checkpoint:
+In step add verify checkpoint.
+Give the checkpoint which we wanted to verify
+Give true we wanted to log the value in console
+
+What verify checkpoint step will do:
+It will check the snapshot value and current value in data source file (test data or csv or excel or db data)
+If both are same, it will pass.
+If both are different, it will fail
+
+
+
+//We can also give data base and query here as the checkpoint.
+//It will compare the current data in db with snapshot value.
+
+
+
+
+
 
 
 
