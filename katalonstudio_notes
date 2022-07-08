@@ -537,6 +537,47 @@ We can save time as well.
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Re-Using existing test steps to create another test case:
+--------------------------------------------------------
+We can reuse existing test steps and start recording from that that point.
+It will run till the existing step, then we can continue our new steps.
+
+
+Create new test case.
+Go to Add -> Call Test case -> Add existing test case which can move till expected page   //If any close browser / close application is there, disable/remove the step before adding here.
+Now click on record option.
+It will ask where we want to continue recording. Give Yes.
+Now in record window we can see along with existing steps.
+Now click on green color play icon right side just above the steps. 
+It will run till our steps automatically.
+Now we can continue our action, it will record the steps and object.
+Close the window/app or stop it.
+//Click play icon to reverify.
+Now save the objects.
+Save the test. It will ask whether to override or append.
+Click override
+
+Thats it.
+
+
+
+
 Other notes:
 -----------
 ------------
