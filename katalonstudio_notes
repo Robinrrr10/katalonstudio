@@ -623,6 +623,61 @@ Good practise:
 
 
 
+Katalon studio jenkins plugins: (36th video in same playlist)
+------------------------
+Jenkins has katalon studio which will help to run katalon studio test in jenkins
+This plugin will also take of installation of katalon in jenkins server. We no need to manually install katalon studio
+
+
+https://plugins.jenkins.io/katalon/
+
+
+To install katalon studio plugin in jenkins:
+Go to jenkins
+Go to manage jenkins
+Go to Manage plugins
+Go to availabel plugins
+Search for katalon studio
+Install this plugin
+
+
+How to configure jenkins job for katalon studio:
+Go to jenkins.
+Create job using free style project
+In configue of job go to build
+Click add build step
+Select Execute katalon studio test   //This will be available only if katalon studio plugin is installed
+Give the version of katalon studio which needs to be download. give in "Download katalon studio version". It will automatically install the katalon in jenkins server. Just give the version.
+If we dont want to download and if we wanted to use existing installed katalon studio, then give the path in "Use pre-installed katalon studio"
+In katalon studio generate command for the test suite which we wanted to run. Just copy few commands. Just required option in commands should be fine. That we can paste in command arguments. 
+This command arguments is for passing extra arguments which we got from above using generate command
+//we dont want to give -runMode. If we not give -projectPath it will set the current working directory
+//if need we can specify the current workspace in job configue. if not we can leave it
+//Only first time it will download the katalon studio with given version. Next time it wont download
+
+
+
+
+To add report in jenkins:
+In jenkins job configue,
+Go to post-build action
+Select junit test result report
+In Test report XMLs field give the path where the xml report is available Eg: /Reports/TestSuitename/*/*.xml    //We are giving * because the folder name is in date time format
+Save and apply.
+Now from next run, it should show the test result trend in main page of the job
+
+
+Another report:
+We can add Test result analyser plugin
+This will show more detail of the test.
+This will show Test result analyser option in job. This will show more details of result.
+This will automatically come only if junit test result report is added in post build action. If not, it wont show
+
+
+
+
+
+
 
 
 
