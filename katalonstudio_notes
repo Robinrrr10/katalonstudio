@@ -349,6 +349,81 @@ Now the test will be executed.
 
 
 
+Tutorial 13: Integration with Jenkins
+--------------------------------
+Download and install jenkins
+Start jenkins
+Once everything is ready.
+Create a job
+Go to build -> Execute shell / Execute bash shell
+Add the command to move to katalon available directory Eg: cd /home/application/katalonavailablepath
+Give the generated command here
+Apply and save
+Now can build the jon and check
+
+If need we can schedule the job to run
+
+
+//While generating command uncheck "Keep console log after execution completed". It should not be checked. It should be unchecked. Make sure.
+
+
+
+
+Tutorial 14: Integration with Git - Part 1
+--------------------------------
+Just a basics of GIT.
+Nothing related to Katalon here.
+So skipping
+
+
+Tutorial 15: Integration with Git - Part 2
+------------------------------
+GIT icon will be disabled.
+We need to enable it with below
+Preferences -> Katalon -> Git - > enable Git integration -> apply and Ok
+Now GIT icon show enable
+
+
+Create repository for project in remote(github or bitbucket)
+
+Now go to katalon
+Click GIT icon
+Click clone
+Give repository url, user name, password
+Give next
+It will show the branch
+Give next.
+Now the cloning will be done.
+
+To commit:
+Click GIT icon in katalon studio
+click commit
+Move the files from unstaged to staged. Then give commit message
+Then click command and push
+Now it will push to remote repository
+
+To pull:
+Click GIT icon in katalon studio
+Clic pull
+Now the pulled changes will reflect
+
+
+
+To create or switch to branches:
+Click GIT icon in katalon studio
+Click Manage branches
+There we have option to create new branch or checkout to other branch and other options as well
+
+
+
+
+Tutorial 16: Jenkins + Git integration
+--------------------------------
+In this example they explained simular about above to examples.
+Here they used git pull and before running the katalon running command and git push after run command.
+
+I would say, jenkins itself
+
 
 
 
