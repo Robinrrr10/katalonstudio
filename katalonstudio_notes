@@ -711,6 +711,29 @@ Thats it.
 
 
 
+Passing value in any of the object repo:
+--------------------------------------
+We can pass the value of object from the test.
+We can give the the key in object like below
+Eg:
+${keyname}
+
+So in object repo. it will like below eg: in xpath
+Eg:
+//XCUIElementTypeKey[@name="${community}"]
+
+
+And in test in script mode, we will pass the value like below
+
+In script mode will pass like below
+ Mobile.tap(findTestObject('Page/mypage/communityToselect', [('community') : 'Downtown Dubai']), 0)
+
+
+
+
+
+
+
 Other notes:
 -----------
 ------------
