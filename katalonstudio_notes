@@ -427,7 +427,24 @@ I would say, jenkins itself
 
 
 
+Tutorial 23: Environments or execution profiles
+------------------------------------------
+Execution profile is maintaining global level variables.
+Eg: for staging environment we can have one profile with staging credential and staging values
+For running in dev environment we can have another profile with dev values.
 
+
+To create profile: //If need we can use default profile
+Right click on profile -> select execution profile
+We can many global variables in profile.
+Variables in profile are global variables
+
+In test, when ever we wanted to use that variables in profile. we will give type as global variables, then we will select the variable.
+
+
+In test suite collection, we can give the profile which needs to be picked for test suite which is under test collection
+
+In cicd, we can give profile in additional command Eg: -executionProfile="staging" 
 
 
 
